@@ -35,6 +35,29 @@ body{
 	right: 0;
 }
 
+.nombre{
+	font-size: 28px;
+	position: absolute;
+	bottom: 190px;
+	right: 70px;
+	color: whitesmoke;
+}
+
+.title{
+	font-size: 15px;
+	position: absolute;
+	bottom: 165px;
+	right: 70px;
+	color: #febe0d;
+}
+
+.info{
+	font-size: 15px;
+	position: absolute;
+	bottom: 80px;
+	right: 80px;
+	color: whitesmoke;
+}
 
 .isotipo{
 	background: url(../img/Laboratoria_Isotipo.png);
