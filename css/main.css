@@ -1,0 +1,57 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.tarjeta{
+ 	position: relative;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.foto{
+	background: url(../img/bere.jpg);
+	background-size: 100%;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	z-index: -1;
+}
+
+.amarillo{
+	width: 0;
+	height: 0;
+	border-top: 400px solid rgba(254,190,13, 0.5);
+	border-right: 110px solid transparent;
+}
+
+.marca {
+	border-bottom: 400px solid #8e8e8e; /*alto*/
+	border-left: 120px solid transparent;
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+.isotipo{
+	background: url(../img/Laboratoria_Isotipo.png);
+	background-size: 100%;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.logo{
+	background: url(../img/Laboratoria_Logo.png);
+	background-size: 100%;
+	width: 250px;
+	height: 65px;
+	position: absolute;
+	top:0;
+	left: 250px;
+}
